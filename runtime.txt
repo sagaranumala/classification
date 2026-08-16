@@ -1,2 +1,0 @@
-# Create this file in your project root
-echo "3.11" > .python-version
