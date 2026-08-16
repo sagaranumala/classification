@@ -28,31 +28,14 @@
 # # openai==1.3.0
 
 
-# ============================================================================
-# AI CHATBOT REQUIREMENTS - DEPLOYMENT OPTIMIZED
-# For: Streamlit Cloud, Hugging Face Spaces, Render
-# ============================================================================
-
-# ============================================================================
-# AI CHATBOT REQUIREMENTS - DEPLOYMENT OPTIMIZED
-# For: Streamlit Cloud, Hugging Face Spaces, Render
-# ============================================================================
-
-# ============================================================================
-# AI CHATBOT - PYTHON 3.14 COMPATIBLE
-# ============================================================================
-
-# ============================================================================
-# AI CHATBOT - PYTHON 3.14 COMPATIBLE
-# ============================================================================
-
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch>=2.0.0
-torchvision>=0.15.0
-transformers==4.36.0
-accelerate>=0.20.0
-streamlit>=1.28.0
-numpy>=1.24.0
+torch>=2.5.0
+torchvision>=0.20.0    # ← This is here!
+torchaudio>=2.5.0
+transformers>=4.45.0
+accelerate>=0.35.0
+streamlit>=1.37.0
+numpy>=1.26.0
 python-dotenv>=1.0.0
-sentencepiece>=0.1.99
+sentencepiece>=0.2.0
 protobuf>=3.20.0
