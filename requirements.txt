@@ -38,19 +38,25 @@
 # For: Streamlit Cloud, Hugging Face Spaces, Render
 # ============================================================================
 
-# Core AI Libraries (Lightweight versions)
-torch==2.1.0
-transformers==4.35.2
-accelerate==0.25.0
-bitsandbytes==0.41.3
+# ============================================================================
+# AI CHATBOT - PYTHON 3.14 COMPATIBLE
+# ============================================================================
+
+# CPU-optimized PyTorch (latest version for Python 3.14)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.5.0
+
+# AI Libraries (latest versions)
+transformers>=4.45.0
+accelerate>=0.35.0
 
 # Web Framework
-streamlit==1.28.0
+streamlit>=1.37.0
 
 # Utilities
-numpy==1.24.3
-python-dotenv==1.0.0
+numpy>=1.26.0
+python-dotenv>=1.0.0
 
-# Optional but recommended for performance
-# sentencepiece==0.1.99
-# protobuf==3.20.3
+# Optional but recommended
+sentencepiece>=0.2.0
+protobuf>=3.20.0
